@@ -1,0 +1,44 @@
+{
+  "name": "pagercoders/pagercoder",
+  "description": "The Pager PHP framework",
+  "keywords": [
+    "PHP",
+    "template",
+    "mvc",
+    "database",
+    "orm",
+    "console",
+    "framework"
+  ],
+  "authors": [
+    {
+      "name": "Iulian Popa",
+      "email": "iulyanpopa@gmail.com",
+      "role": "Architect"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PagerCoder\\": "src/pagercoder"
+    },
+    "exclude-from-classmap": [
+        "**/Tests/"
+    ]
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.2"
+  },
+  "replace": {
+    "pagercoders/di": ""
+  },
+  "extra": {
+    "branch-alias": {
+      "dev": "dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
