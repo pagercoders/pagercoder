@@ -33,7 +33,7 @@
     "phpunit/phpunit": "~6.2"
   },
   "replace": {
-    "pagercoders/di": ""
+    "pagercoders/di": "self.version"
   },
   "extra": {
     "branch-alias": {
