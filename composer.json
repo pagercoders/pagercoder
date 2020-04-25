@@ -33,6 +33,10 @@
     "phpunit/phpunit": "~6.2"
   },
   "replace": {
+    "pagercoders/cache": "self.version",
+    "pagercoders/collection": "self.version",
+    "pagercoders/config": "self.version",
+    "pagercoders/database": "self.version",
     "pagercoders/di": "self.version"
   },
   "extra": {
